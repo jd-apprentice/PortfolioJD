@@ -1,0 +1,16 @@
+{
+  "name": "portfoliojd",
+  "version": "1.0.0",
+  "description": "Portfolio Web Developer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jd-apprentice/PortfolioJD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jd-apprentice/PortfolioJD/issues"
+  },
+  "homepage": "https://github.com/jd-apprentice/PortfolioJD#readme"
+}
