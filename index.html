@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <section id="home" class="showcase overflow-hidden">
+    <section class="showcase">
       <!-- Header Start -->
 
       <header>
@@ -43,16 +43,24 @@
             class="iconPlay"
             src="/img/play.png"
             alt="Musica"
-            width="75px"
-            height="75px"
+            width="50px"
+            height="50px"
           />
+          <span class="songName"></span>
         </h2>
         <div class="toggle"></div>
       </header>
 
       <!-- Background and Text Start -->
 
-      <video id="Video" src="/img/Background.mp4" muted loop></video>
+      <video
+        id="Video"
+        src="/img/Background.mp4"
+        muted
+        loop
+        preload="auto"
+        poster="/img/Loading....png"
+      ></video>
 
       <!-- Overlay and Text -->
       <div class="overlay"></div>
@@ -106,7 +114,8 @@
 
     <div class="menu">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <div class="toggle2">X</div>
+        <li><a class="homePage" href="#!">Home</span></a>
         <li>
           <a
             target="_blank"
@@ -140,14 +149,13 @@
             >Jd-Informatica</a
           >
         </li>
-        <li class="projetcsDisabled"><a href="#!">↑↑ Projects ↑↑</a></li>
       </ul>
     </div>
 
     <!-- Audio -->
 
-    <audio loop class="song" controls volume="0.1">
-      <source src="/img/Musica.mp3" type="audio/mp3" />
+    <audio loop class="song" controls volume="0.1" preload="auto">
+      <source src="/img/Reach Out To The Truth.mp3" type="audio/mp3" />
     </audio>
 
     <!-- Scripts -->
