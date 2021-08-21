@@ -1,6 +1,8 @@
-// Variables
+// Variables declaration
 const menuToggle = document.querySelector(".toggle");
 const showcase = document.querySelector(".showcase");
+const getSpinner = document.querySelector(".userSpinner");
+const getSpinnerDiv = document.querySelector("#webSpinner");
 const getSong = document.querySelector(".song");
 const getVideo = document.querySelector("#Video");
 const getIcon = document.querySelector(".iconPlay");
