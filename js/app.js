@@ -35,14 +35,10 @@ getIcon.addEventListener("click", () => {
   if (getSong.paused || getVideo.paused) {
     getSong.play();
     getVideo.play();
-    getSongName.display = "block";
-    getSongName.innerText = "Reach Out To The Truth";
     getIcon.src = "img/pause.png";
   } else {
     getSong.pause();
     getVideo.pause();
-    getSongName.display = "none";
-    getSongName.innerText = "";
     getIcon.src = "img/play.png";
   }
 });

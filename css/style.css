@@ -94,13 +94,6 @@ audio {
   height: 100%;
 }
 
-/* Song Name */
-
-.songName {
-  font-size: 0.5em;
-  display: inline-block;
-}
-
 /* Text */
 .text {
   position: relative;
