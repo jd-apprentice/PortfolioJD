@@ -24,4 +24,4 @@ tiene simplemente una funcionalidad que es la barra desplegable de la derecha do
 ## Otros recursos ©️
 
 * Video utilizado de fondo [Kamisato Ayaka / Genshin impact](https://steamcommunity.com/sharedfiles/filedetails/?id=2565118060&searchtext=)
-* Cancion utilizada [Reach Out To The Truth - First Battle](https://www.youtube.com/watch?v=5cbjrTNSq0I)
+* Cancion utilizada [Pursuing My True Self](https://www.youtube.com/watch?v=RjizCnqeJTY)
