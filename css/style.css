@@ -193,6 +193,10 @@ audio {
   display: none;
 }
 
+.projects-hide {
+  cursor: pointer;
+}
+
 /* Mediaqueries */
 @media (max-width: 991px) {
   .showcase,
