@@ -189,6 +189,10 @@ audio {
   color: #b44c72;
 }
 
+.projects {
+  display: none;
+}
+
 /* Mediaqueries */
 @media (max-width: 991px) {
   .showcase,
