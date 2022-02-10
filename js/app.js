@@ -23,7 +23,6 @@ projectsToggle.addEventListener("click", () => {
   });
 });
 
-
 // Reset icon
 const resetIcon = () => {
   menuToggle.classList.toggle("active");
@@ -31,33 +30,29 @@ const resetIcon = () => {
 };
 
 // Toggle the menu
-menuToggle.addEventListener("click", () => {
-  resetIcon();
-});
+menuToggle.addEventListener("click", () => resetIcon());
 
 // Menu for 320px resolution
-menuToggle2.addEventListener("click", () => {
-  resetIcon();
-});
+menuToggle2.addEventListener("click", () => resetIcon());
 
 // Homepage
-getHomePage.addEventListener("click", () => {
-  resetIcon();
-});
+getHomePage.addEventListener("click", () => resetIcon());
 
 // Play the song - Pause the song - Show song name
 getIcon.addEventListener("click", () => {
   if (getSong.paused || getVideo.paused) {
-    getSong.play();
-    getVideo.play();
     getIcon.src = "img/pause.png";
+    getSong.play();
+    getVideo.style.transform = "scale(-1, 1)";
+    getVideo.play();
   } else {
-    getSong.pause();
-    getVideo.pause();
     getIcon.src = "img/play.png";
+    getSong.pause();
+    getVideo.style.transform = "scale(1, 1)";
+    getVideo.pause();
   }
 });
 
 // Song volume
-getSong.volume = 0.1;
+getSong.volume = 0.2;
 getSong.display = "none";

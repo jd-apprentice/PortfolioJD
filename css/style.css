@@ -85,6 +85,8 @@ audio {
   height: 100%;
   object-fit: cover;
   opacity: 0.7;
+  transition: all 0.5s;
+  transition-duration: 1s;
 }
 .overlay {
   position: absolute;
