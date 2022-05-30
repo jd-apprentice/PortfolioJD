@@ -43,12 +43,11 @@ getIcon.addEventListener("click", () => {
   if (getSong.paused || getVideo.paused) {
     getIcon.src = "img/pause.png";
     getSong.play();
-    getVideo.style.transform = "scale(-1, 1)";
+    getVideo.style.transform = "scale(1)";
     getVideo.play();
   } else {
     getIcon.src = "img/play.png";
     getSong.pause();
-    getVideo.style.transform = "scale(1, 1)";
     getVideo.pause();
   }
 });

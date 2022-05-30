@@ -1,14 +1,14 @@
 {
   "name": "portfoliojd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Portfolio Web Developer",
-  "main": "index.js",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jd-apprentice/PortfolioJD.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jonathan Dyallo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jd-apprentice/PortfolioJD/issues"
   },
